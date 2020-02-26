@@ -15,8 +15,8 @@ public class DefiningTest {
 	    
 	    
 		@Test
-		public void testSimple() {
-			assertEquals(12.0,t.simple(100.0,4.0,3.0),DELTA);
+		public void testhard() {
+			assertEquals(12.0,t.hard(100.0,4.0,3.0),DELTA);
 		}
 		
 

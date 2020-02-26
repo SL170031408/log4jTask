@@ -11,7 +11,7 @@ public class Defining {
 	
 	private static final org.apache.logging.log4j.Logger LOGme1=LogManager.getLogger(Defining.class);
 	
-	public double simple(double p,double n,double  pe)
+	public double hard(double p,double n,double  pe)
 	{
 		double meg=(p*n*pe)/100;
 		LOGme1.info(meg);
